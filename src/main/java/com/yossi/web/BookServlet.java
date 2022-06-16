@@ -91,6 +91,7 @@ public class BookServlet extends BaseServlet{
      */
     protected void page(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        System.out.println("hot-fix!!!");
         //1.获取请求的参数,默认第一页
         int pageNo = WebUtils.parseInt(req.getParameter("pageNo"),1);
             //没有传就用默认值
