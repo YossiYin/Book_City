@@ -16,6 +16,8 @@ public class BaseServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String action =req.getParameter("action");
+        System.out.println("修改了此行");
+        System.out.println("修改了此行");
 
         try {
             //通过反射得到方法
