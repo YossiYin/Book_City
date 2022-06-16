@@ -18,6 +18,7 @@ public class BaseServlet extends HttpServlet {
         String action =req.getParameter("action");
         System.out.println("修改了此行");
         System.out.println("修改了此行");
+        System.out.println("第三次！！！");
 
         try {
             //通过反射得到方法
